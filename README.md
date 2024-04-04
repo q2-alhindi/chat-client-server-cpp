@@ -19,7 +19,7 @@ cd iot_ws2_part2
 3. To compile/build server and client:
 ~~~bash
 make all #to build both server and client
-#or 
+#orr
 make
 ~~~
 4. To run the server and client:
