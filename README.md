@@ -26,7 +26,7 @@ make
 ~~~bash
 ./chat_server
 ./chat_client 192.168.1.99 1020 qais
-#assuiming this is the ip address, port number and name of client
+#assuiming this is the ip address, port number and name of client wanted
 ~~~
 ## Task 1 and 2: Implementing Server Functions And chat client
 This task involves buildiing three server functions: Join, direct message and exit.
