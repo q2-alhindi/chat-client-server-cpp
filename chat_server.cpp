@@ -140,11 +140,8 @@ void handle_broadcast(
 //     }
 // }
 void handle_join(
-
     online_users& users, std::string username, std::string,
-
     struct sockaddr_in& client_address, uwe::socket& sock, bool& exit_loop) {
-
     if (users.find(username) != users.end()) {
         handle_error(ERR_USER_ALREADY_ONLINE, client_address, sock, exit_loop);
     } else {
@@ -432,14 +429,11 @@ void handle_exit(
             DEBUG("Failed to send exit message to %s\n", user_name.c_str());
             // Handle the failure to send the message (e.g., error message or other actions)
         }
-
         // Clear up memory for the user
         delete user_addr;
     }
-
     // Clear the online_users map
     online_users.clear();
-
     // Set exit_loop to true to indicate that the event loop should terminate
     exit_loop = true;
 }

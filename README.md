@@ -1,3 +1,0 @@
-# iot_ws2_part2
-
-Your words go here...
