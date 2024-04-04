@@ -157,6 +157,12 @@ This task involves implementing serveral new functions to the server.
 * Add members function
 * Leave group function
 
+### Make
+To build the application:
+~~~bash
+make all
+~~~
+
 
 
 
